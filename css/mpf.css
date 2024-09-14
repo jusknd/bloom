@@ -1,0 +1,201 @@
+
+
+/* 
+font-family: "Sofia", cursive;
+font-family: "Noto Sans", sans-serif;
+
+*/
+
+:root{
+    --font1:"Sofia", cursive;
+    --font2: "Noto Sans", sans-serif;
+    --prim:  white;
+    --sec:  rgb(253, 119, 141);
+    --tert: #b2a4a4;
+    --color: #213349;
+}
+
+/* classes */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #213349;
+}
+
+header{
+    /* border: 1px 0; */
+    width: 100%;
+    /* padding: 4px 0; */
+    background-color: #213349;
+}
+
+.section{
+
+}
+
+
+.row{
+
+
+}
+
+.heading {
+    color: var(--btnColor);
+    color: var(--prim);
+    font-family: var(--font1);
+    width: 50%;
+    text-transform: capitalize;
+}
+
+
+
+.container{
+    width: 90%;
+}
+
+.icon{
+    display: block;
+
+}
+
+nav{
+    
+}
+
+
+.sec1-Box{
+    width: 100%;
+    float: right;
+    background-color: rgb(253, 119, 141);
+
+}
+
+
+
+
+
+
+/* ids */
+
+
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between; /* Space between title and social icons */
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Main Section */
+main {
+    flex: 1; /* Grow to fill available space */
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 10px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+.laptop {
+    margin: 20px 0;
+}
+
+.laptop img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap; /* Wrap blocks if they overflow */
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.block {
+    flex: 1 1 300px; /* Grow, shrink, and start at 300px */
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icons {
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.icons span {
+    font-size: 24px;
+}
+
+/* Footer */
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
